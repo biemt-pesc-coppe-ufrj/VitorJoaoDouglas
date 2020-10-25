@@ -16,10 +16,21 @@ def montaGrupos(lemmasFile):
 
 def main():
     
+    resultados = open("resultados","w")
+    #snowball
     lemmas = montaGrupos("words_sample.txt")
-    stems = montaGrupos("stems.txt")        
-    p = Paice(lemmas, stems)
-    print(p)
+    stemSnow = montaGrupos("stems_snowball.txt")
+    stemRslp = montaGrupos("stems_rslp.txt")        
+    pS = Paice(lemmas, stemSnow)
+    pR = Paice(lemmas, stemRslp)
+
+    resultados.write("-----------------APLICACAO DO METODO DE PAICE PARA MEDIR DESEMPENHO DE STEMMERS-----------------\n")    
+    resultados.write("--------------------------------------RESULTS SNOWBALL------------------------------------------\n")
+    resultados.write(pS.__str__())
+    resultados.write("\n--------------------------------------RESULTS RSLP----------------------------------------------\n")
+    resultados.write(pR.__str__())
+    resultados.write("\n------------------------------------------------------------------------------------------------\n")
+    resultados.close()
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,22 @@
+-----------------APLICACAO DO METODO DE PAICE PARA MEDIR DESEMPENHO DE STEMMERS-----------------
+--------------------------------------RESULTS SNOWBALL------------------------------------------
+Global Unachieved Merge Total (GUMT): 215.5
+Global Desired Merge Total (GDMT): 6976.0
+Global Wrongly-Merged Total (GWMT): 223.5
+Global Desired Non-merge Total (GDNT): 2091200.0
+Understemming Index (GUMT / GDMT): 0.030891628440366973
+Overstemming Index (GWMT / GDNT): 0.00010687643458301454
+Stemming Weight (OI / UI): 0.003459721613230206
+Error-Rate Relative to Truncation (ERRT): 0.11828052939655158
+Truncation line: (0.0, 1.0) (0.0021502293577981653, 0.40189173680183626) (0.009604357798165137, 0.13665120504973222) (0.01834862385321101, 0.022895466717674062) (0.0963302752293578, 0.004801071155317521) (0.22348050458715596, 0.0010974560061208876) (0.4099770642201835, 0.0001381981637337414)
+--------------------------------------RESULTS RSLP----------------------------------------------
+Global Unachieved Merge Total (GUMT): 48.5
+Global Desired Merge Total (GDMT): 6976.0
+Global Wrongly-Merged Total (GWMT): 54.0
+Global Desired Non-merge Total (GDNT): 2091200.0
+Understemming Index (GUMT / GDMT): 0.006952408256880734
+Overstemming Index (GWMT / GDNT): 2.582249426166794e-05
+Stemming Weight (OI / UI): 0.0037141797931834137
+Error-Rate Relative to Truncation (ERRT): 0.027407314953389814
+Truncation line: (0.0, 1.0) (0.0021502293577981653, 0.40189173680183626) (0.009604357798165137, 0.13665120504973222) (0.01834862385321101, 0.022895466717674062) (0.0963302752293578, 0.004801071155317521) (0.22348050458715596, 0.0010974560061208876) (0.4099770642201835, 0.0001381981637337414)
+------------------------------------------------------------------------------------------------
